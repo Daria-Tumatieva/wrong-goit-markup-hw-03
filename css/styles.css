@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+    background-color: #FFF;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+.header-logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.header-logo-element {
+    color: #2E2F42;
+}
+.header-menu {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.header-menu:hover, .header-menu:focus {
+    color: #404BBF;
+}
+address {
+    font-style: normal
+}
+.header-contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    font-style: normal
+}
+.header-contacts:hover, .header-contacts:focus {
+    color: #404BBF;
+}
+.main-section {
+    background-color: #2E2F42;
+}
+.main-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.main-title-btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+.main-title-btn:hover, .main-title-btn:focus {
+    background: #404BBF;
+}
+.main-advantages-hidden {
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advantages-list {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.advantages-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team {
+    background: #F4F4FD;
+}
+.main-list {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.main-item {
+    background-color: #FFFFFF
+}
+.main-title-item {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.main-item-description {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer-logo-element {
+    color: #F4F4FD;
+}
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
