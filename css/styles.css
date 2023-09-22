@@ -12,6 +12,9 @@ ul, ol {
     margin-bottom: 0;
     padding-left: 0;
 }
+img {
+    display: block;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -29,9 +32,16 @@ header {
 padding-top: 24px;
 padding-bottom: 24px;
 }
+.header {
+border-bottom: 1px solid #e7e9fc
+}
+
 .menu-novigation {
     display: flex;
     margin-right: auto;
+    width: 1158px;
+    padding: 0 15px;
+    align-items: center;
 }
 .container-header {
     display: flex;
@@ -53,6 +63,7 @@ padding-bottom: 24px;
 .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .menu-item {
     color: #2E2F42;
@@ -86,14 +97,15 @@ padding-right: 156px;
 .mail {
     padding-right: 40px;
 }
+.address-item {
+gap: 40px
+}
+
 
 /* ===============MAIN WITH BUTTON============================== */
 .main-section {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-bottom: 292px;    
+padding: 188px 0
 }
 .main-title {
     color: #FFF;
