@@ -33,8 +33,7 @@ padding-bottom: 24px;
 }
 .menu-novigation {
     display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
+    margin-right: auto;
 }
 .container-header {
     display: flex;
@@ -47,6 +46,7 @@ padding-bottom: 24px;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .header-logo-element {
     color: #2E2F42;
